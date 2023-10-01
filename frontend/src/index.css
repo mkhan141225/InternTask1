@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+ 
+}
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap");
+
+.nav-link-active {
+  color: purple !important;
+  background-color: brown; /* Change this to your desired color */
+}
+.form {
+  font-size: 14px;
+  font-weight: 500;
+}
+.dial {
+  font-weight: 200;
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* .custom-input {
+  border: none !important;
+  /* Optionally, you can remove the box-shadow as well */
+  /* box-shadow: none !important; */
+/* } */
+
+
+
+.light {
+  font-weight: 100;
+  font-family: "Times New Roman";
+}
+.formHeader {
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  background-color: #d0f7fa;
+  font-weight: 500;
+  border: none !important;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 40px;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* font-family: 'Playfair Display', serif; */
